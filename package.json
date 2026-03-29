@@ -1,0 +1,21 @@
+{
+  "name": "smart-tracker-api",
+  "version": "1.0.0",
+  "description": "Basic Express API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "client": "npm run dev --prefix client",
+    "client:install": "npm install --prefix client"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^7.1.1",
+    "mongoose": "^8.8.0"
+  }
+}
