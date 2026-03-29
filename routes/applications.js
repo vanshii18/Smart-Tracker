@@ -91,7 +91,7 @@ router.put('/:id', async (req, res) => {
     if (!application) {
       return res.status(404).json({
         error:
-          'No application found with that id. It may have been deleted already.',
+          'No application found with that id. It may have been deleted.',
       });
     }
 
